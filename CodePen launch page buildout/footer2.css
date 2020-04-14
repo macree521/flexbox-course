@@ -1,0 +1,31 @@
+.footer > .footer-container {
+    background-color: rgb(55, 55, 56);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* height: 100%;
+    position: relative;
+    margin-top: -100px;
+    clear: both; */
+}    
+
+.footer-container > .footer-item {
+    border: solid rgba(211, 211, 211, 0.712) 2px;
+    width: 110%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, sans-serif;
+    /* bottom: 0px; */
+}
+
+.footer > .footer-container > .footer-item span {
+    font-weight: bolder;
+}
